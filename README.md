@@ -18,6 +18,12 @@ See also here for reference:
 [added Visual Studio Build tools FscToolPath](https://github.com/fsprojects/FSharp.TypeProviders.SDK/pull/286)
 [Can't dotnet build apps with TypeProviders if installed the F# compiler with Visual Studio Build Tools](https://github.com/fsprojects/FSharp.TypeProviders.SDK/issues/285)
 
+# Dependencies
+
+You will need to have Visual Studio 2017 or Visual Studio 2019 installed. If you don't want to install Visual Studio or if you are running on a Build Server, you can install the Visual Studio Build Tools
+
+[Download here](https://visualstudio.microsoft.com/downloads/)
+
 # Steps to build
 
 1. Clone the repo
