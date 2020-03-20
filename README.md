@@ -32,4 +32,8 @@ If you see this error:
  that SQL Server is configured to allow remote connections.
  ```
 
- You are doing good. To further test, go into `src/lib/Example.fs` and change the connection string to point to your database and change the query to make sense for you schema.
+ You are in good shape. To further test, go into `src/lib/Example.fs` and change the connection string to point to your database and change the query to make sense for you schema.
+
+ # Putting the `fsc.props` file at the solution level
+
+ I like to keep fsc.props at the solution level so I can import it into any projects I have in my solution.
